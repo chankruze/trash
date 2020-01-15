@@ -9,7 +9,7 @@ int main()
     printf("Number of students:");
     scanf("%d\n", &n);
 
-    p = (int *) calloc(n, sizeof(int));
+    p = calloc(n, sizeof(int));
 
     if (p == NULL)
     {

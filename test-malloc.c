@@ -9,7 +9,7 @@ int main()
     printf("Number of students:");
     scanf("%d\n", &n);
 
-    p = (int *) malloc(n * sizeof(int));
+    p = malloc(n * sizeof(int));
 
     if (p == NULL)
     {
